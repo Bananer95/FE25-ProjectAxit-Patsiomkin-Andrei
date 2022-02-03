@@ -1,0 +1,56 @@
+.pricing {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+}
+
+.price_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+
+.pricing_list {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing_list-name {
+  text-transform: capitalize;
+  background-color: #333333;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding: 9px 0 14px 0;
+  margin-bottom: 1px;
+}
+.pricing_list-cost {
+  background-color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  padding: 26px 0 33px 0;
+  margin-bottom: 2px;
+}
+.pricing_list-timeAction {
+  background-color: #333333;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #c0bdbd;
+  padding: 17px 0 14px 0;
+  margin-bottom: 4px;
+}
+.pricing_list-item {
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #86878b;
+  padding: 10px 0 11px 0;
+  margin-bottom: 4px;
+}

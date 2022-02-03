@@ -1,5 +1,6 @@
 @import url('./awesome.css');
 @import url('./cdn.css');
+@import url('./pricing.css');
 
 * {
   padding: 0;
@@ -15,7 +16,7 @@ html {
 
 .container {
   max-width: 1170px;
-  padding: 100px 0;
+  padding: 0 15px;
   margin: auto;
 }
 .title {

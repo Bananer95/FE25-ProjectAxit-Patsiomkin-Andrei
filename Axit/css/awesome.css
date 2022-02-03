@@ -1,6 +1,11 @@
+.awesome {
+  padding: 100px 0;
+}
+
 .awesome_row {
   display: flex;
   justify-content: space-between;
+  margin: 0 -15px;
 }
 
 .awesome_card {
