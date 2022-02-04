@@ -9,19 +9,19 @@
 }
 
 .awesome_card {
-  max-width: 350px;
+  max-width: 350px; /*Максимальное расстояние блока 350 пикселей*/
   margin: 0 15px;
 }
 
 .awesome_card_img {
   display: flex;
-  justify-content: center;
+  justify-content: center; /*Контент находится по центру блока*/
   align-items: center;
   width: 70px;
-  margin: auto;
+  margin: auto; /* Выравнивание по весь блок по центру родителя */
   height: 70px;
   border: 1px solid #d98943;
-  border-radius: 50%;
+  border-radius: 50%; /* Квадрат границы делает кругом */
   margin-bottom: 32px;
 }
 
@@ -30,7 +30,7 @@
   font-weight: 700;
   color: #333333;
   text-align: center;
-  line-height: 27px;
+  line-height: 27px; /*Межстрочный отступ */
   margin-bottom: 20px;
 }
 

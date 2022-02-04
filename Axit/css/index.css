@@ -5,9 +5,9 @@
 * {
   padding: 0;
   margin: 0;
-  list-style: none;
-  box-sizing: border-box;
-  text-decoration: none;
+  list-style: none; /*Убирает визоалзацию списка*/
+  box-sizing: border-box; /*Убирает С расчета пэдинги */
+  text-decoration: none; /*Отключает стилизацию текста подчеркивание и тд.*/
 }
 
 html {
@@ -21,7 +21,7 @@ html {
 }
 .title {
   font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
+  text-transform: uppercase; /* Все буквы большого размера */
   font-weight: 400;
   font-size: 36px;
   color: #212121;
@@ -31,7 +31,7 @@ html {
 }
 
 .title h2:after {
-  display: block;
+  display: block; /*Элемент становится блочным */
   content: '';
   width: 64px;
   height: 2px;
@@ -42,7 +42,7 @@ html {
 
 .subtitle {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 400; /*Толщина Шрифта */
   line-height: 19px;
   color: #86878b;
   text-align: center;

@@ -5,24 +5,24 @@
 
 .price_row {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: row; /*Контент идет строкой */
+  justify-content: space-between; /*Расстягивает контент по краям  */
   margin: 0 -15px;
 }
 
 .pricing_list {
   width: 350px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /*Контент идет столбом*/
   margin: 0 15px;
 }
 
 .pricing_list-name {
-  text-transform: capitalize;
+  text-transform: capitalize; /*Каждое новое слово с большой буквы */
   background-color: #333333;
   font-weight: 700;
   font-size: 20px;
-  text-align: center;
+  text-align: center; /* Текст по середине*/
   color: white;
   padding: 9px 0 14px 0;
   margin-bottom: 1px;
@@ -38,7 +38,7 @@
   margin-bottom: 2px;
 }
 .pricing_list-timeAction {
-  background-color: #333333;
+  background-color: #333333; /*Цвет фона контейнера */
   font-weight: 500;
   font-size: 14px;
   text-align: center;
