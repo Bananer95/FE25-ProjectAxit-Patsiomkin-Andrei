@@ -1,6 +1,8 @@
 @import url('./awesome.css');
 @import url('./cdn.css');
 @import url('./pricing.css');
+@import url('./reviews.css');
+@import url('./design.css');
 
 * {
   padding: 0;
@@ -15,6 +17,8 @@ html {
 }
 
 .container {
+  position: relative;
+  z-index: 5;
   max-width: 1170px;
   padding: 0 15px;
   margin: auto;
@@ -46,5 +50,15 @@ html {
   line-height: 19px;
   color: #86878b;
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 67px;
+}
+
+.button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  border: 2px solid #ffffff;
+  padding: 11px 26px;
+  color: #ffffff;
+  cursor: pointer;
 }

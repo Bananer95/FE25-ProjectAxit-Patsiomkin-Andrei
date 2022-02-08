@@ -1,0 +1,66 @@
+.reviews {
+  padding: 100px 0;
+}
+.reviews_row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.reviews_row-comment {
+  max-width: 350px;
+  margin: 0 15px;
+}
+.reviews_row-comment-text {
+  position: relative;
+  max-width: 300px;
+  border-radius: 5px;
+  background-color: #e2e2e2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #86878b;
+  padding: 9px 22px 6px 23px;
+  margin-bottom: 22px;
+}
+.reviews_row-comment-text::after {
+  content: '';
+  position: absolute;
+  border: 16px solid transparent;
+  border-top: 16px solid #e2e2e2;
+  top: 100%;
+  left: 40px;
+}
+
+.reviews_row-comment-person {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.reviews_row-comment-person-photo {
+  display: flex;
+  justify-content: center; /*Контент находится по центру блока*/
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid transparent;
+  border-radius: 50%; /* Квадрат границы делает кругом */
+  background-color: yellow;
+}
+
+.reviews_row-comment-person-name h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: right;
+  color: #333333;
+  margin: 8px 0 12px;
+}
+
+.reviews_row-comment-person-name_prof {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: right;
+  color: #86878b;
+}
