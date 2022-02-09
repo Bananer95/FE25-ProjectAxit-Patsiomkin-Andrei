@@ -47,7 +47,7 @@
   height: 100px;
   border: 1px solid transparent;
   border-radius: 50%; /* Квадрат границы делает кругом */
-  background-color: yellow;
+  background-color: #ff7904;
 }
 
 .reviews_row-comment-person-name h3 {
