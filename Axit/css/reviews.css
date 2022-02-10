@@ -48,6 +48,7 @@
   border: 1px solid transparent;
   border-radius: 50%; /* Квадрат границы делает кругом */
   background-color: #ff7904;
+  margin-right: 10px;
 }
 
 .reviews_row-comment-person-name h3 {

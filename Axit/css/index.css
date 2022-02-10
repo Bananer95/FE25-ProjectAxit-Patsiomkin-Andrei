@@ -3,6 +3,9 @@
 @import url('./pricing.css');
 @import url('./reviews.css');
 @import url('./design.css');
+@import url('./header.css');
+@import url('./links.css');
+@import url('./social.css');
 
 * {
   padding: 0;

@@ -1,0 +1,115 @@
+.social {
+  background-color: #f8efef;
+  padding: 14px 0 22px;
+}
+
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social_name {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+}
+
+.social_title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333333;
+  text-transform: capitalize;
+  margin-bottom: 9px;
+}
+.social_text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+  text-align: left;
+}
+
+.social_facebock {
+  font-size: 42px;
+  color: #86878b;
+  margin-right: 60px;
+  padding: 5px;
+  transition: transform 0.3s linear;
+}
+
+.social_facebock:hover {
+  color: #3b5998;
+  transform: rotate(360deg);
+}
+
+.social_twitter {
+  font-size: 42px;
+  color: #86878b;
+  margin-right: 60px;
+  padding: 5px;
+  transition: transform 0.3s linear;
+}
+.social_twitter:hover {
+  color: #00acee;
+  transform: rotate(360deg);
+}
+.social_google {
+  font-size: 42px;
+  color: #86878b;
+  margin-right: 60px;
+  padding: 5px;
+  transition: transform 0.3s linear;
+}
+
+.social_google:hover {
+  color: #dd4b39;
+  transform: rotate(360deg);
+}
+.social_pinterest {
+  font-size: 42px;
+  color: #86878b;
+  margin-right: 60px;
+  padding: 5px;
+  transition: transform 0.3s linear;
+}
+.social_pinterest:hover {
+  color: #e60023;
+  transform: rotate(360deg);
+}
+.social_instagram {
+  font-size: 42px;
+  color: #86878b;
+  margin-right: 60px;
+  padding: 5px;
+  transition: transform 0.3s linear;
+}
+.social_instagram:hover {
+  color: #8a3ab9;
+  transform: rotate(360deg);
+}
+
+.social_stumbeupon {
+  font-size: 42px;
+  color: #86878b;
+  margin-right: 60px;
+  padding: 5px;
+  transition: transform 0.3s linear;
+}
+
+.social_stumbeupon:hover {
+  color: #eb471d;
+  transform: rotate(360deg);
+}
+
+.social_telegramm {
+  font-size: 42px;
+  color: #86878b;
+  padding: 5px 0 5px 5px;
+  transition: transform 0.3s linear;
+}
+.social_telegramm:hover {
+  color: #229ed9;
+  transform: rotate(360deg);
+}
