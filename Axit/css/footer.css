@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #171717;
+  padding: 30px 0 15px;
+}
+
+.footer_text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  text-transform: capitalize;
+}
+.footer_links {
+  margin-bottom: 18px;
+}

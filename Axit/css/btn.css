@@ -1,0 +1,15 @@
+.button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  border: 2px solid #ffffff;
+  padding: 11px 26px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+.button:hover {
+  background-color: #fff;
+  color: #010101;
+  transform: scale(1.1, 1);
+}
