@@ -8,6 +8,8 @@
 @import url('./social.css');
 @import url('./footer.css');
 @import url('./btn.css');
+@import url('./firstscreen.css');
+@import url('./tabs.css');
 
 * {
   padding: 0;
@@ -31,12 +33,15 @@ html {
 .title {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase; /* Все буквы большого размера */
-  font-weight: 400;
-  font-size: 36px;
   color: #212121;
   line-height: 42px;
   text-align: center;
   margin-bottom: 35px;
+}
+
+.title h2 {
+  font-weight: 400;
+  font-size: 36px;
 }
 
 .title h2:after {
@@ -56,4 +61,46 @@ html {
   color: #86878b;
   text-align: center;
   margin-bottom: 68px;
+}
+
+.title.title-white {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase; /* Все буквы большого 
+  размера */
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+.title.title-white h2:after {
+  display: block; /*Элемент становится блочным */
+  content: '';
+  width: 64px;
+  height: 2px;
+  margin-top: 30px;
+  background-color: #ffffff;
+}
+.subtitle.subtitle-white {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+}
+.logo::after {
+  content: 'IT';
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #ec7979;
+  text-transform: uppercase;
 }

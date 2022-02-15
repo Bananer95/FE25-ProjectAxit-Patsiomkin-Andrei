@@ -1,0 +1,71 @@
+.firstscreen {
+  padding: 100px 0;
+  position: relative;
+  background: url('../img/background-2.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.firstscreen::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+.fristscreen_contant {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.firstscreen_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo.firstscreen_logo {
+  font-size: 60px;
+  margin-bottom: 32px;
+}
+
+.logo.firstscreen_logo::after {
+  font-size: 60px;
+}
+
+.title.title-white.firstscreen_title-white {
+  max-width: 550px;
+  text-align: left;
+}
+
+.subtitle.subtitle-white.firstscreen_subtitle-white {
+  max-width: 350px;
+  text-align: left;
+}
+.title.title-white.firstscreen_title-white h2:after {
+  display: block; /*Элемент становится блочным */
+  content: '';
+  width: 64px;
+  height: 2px;
+  margin: left;
+  margin-top: 40px;
+  margin-right: 486px;
+  background-color: #ffffff;
+}
+
+.button.firstscreen_button {
+  margin-left: 0;
+}
+.firstscreen_right {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  width: 370px;
+  height: 370px;
+  background-color: #fff;
+  border-radius: 20px;
+}

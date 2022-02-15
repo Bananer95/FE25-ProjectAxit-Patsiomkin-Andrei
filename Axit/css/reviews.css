@@ -51,6 +51,14 @@
   margin-right: 10px;
 }
 
+#Morty {
+  width: 55%;
+}
+
+.reviews_row-comment-person-photo img {
+  width: 70%;
+}
+
 .reviews_row-comment-person-name h3 {
   font-size: 20px;
   font-weight: 700;

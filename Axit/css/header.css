@@ -9,22 +9,6 @@
   align-items: center;
 }
 
-.header-logo {
-  font-family: 'Raleway', sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  color: white;
-  text-transform: uppercase;
-}
-.header-logo::after {
-  content: 'IT';
-  font-family: 'Raleway', sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  color: #ec7979;
-  text-transform: uppercase;
-}
-
 .header-nav-list {
   display: flex;
   flex-direction: row;

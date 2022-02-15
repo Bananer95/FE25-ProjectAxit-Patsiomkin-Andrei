@@ -42,3 +42,8 @@
   text-align: center;
   color: #000000;
 }
+
+.awesome_card_img i {
+  color: #d98943;
+  font-size: 33px;
+}
