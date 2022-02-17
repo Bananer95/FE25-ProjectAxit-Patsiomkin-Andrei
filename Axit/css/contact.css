@@ -1,0 +1,80 @@
+.contact {
+  padding: 80px 0 44px;
+}
+.subtitle.contact_subtitle {
+  margin-bottom: 95px;
+}
+.contact_form_content {
+  display: flex;
+  justify-content: space-between;
+}
+.contact_form_user {
+  width: 40%;
+}
+.contact_form_user_item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact_form_user_item label {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  color: #bdbdbd;
+  margin-bottom: 32px;
+}
+
+.contact_form_user_item input {
+  width: 100%;
+  font-size: 25px;
+  font-weight: 400;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #bdbdbd;
+  text-transform: none;
+  margin-bottom: 32px;
+}
+
+.contact_form_user_item-last {
+  margin-bottom: 68px;
+}
+
+.contact_form_message {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.contact_form_message label {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  color: #bdbdbd;
+  margin-bottom: 32px;
+}
+
+.contact_form_message input {
+  width: 100%;
+  font-size: 25px;
+  font-weight: 400;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #bdbdbd;
+  text-transform: none;
+  margin-bottom: 32px;
+  padding-bottom: 265px;
+}
+
+.contact_btn {
+  display: block;
+  margin: auto;
+  width: 166px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 0;
+  color: #fff;
+  background-color: #ec7979;
+  padding: 11px;
+  cursor: pointer;
+}

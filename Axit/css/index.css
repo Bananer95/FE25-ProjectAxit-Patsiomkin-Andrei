@@ -10,6 +10,7 @@
 @import url('./btn.css');
 @import url('./firstscreen.css');
 @import url('./tabs.css');
+@import url('./contact.css');
 
 * {
   padding: 0;
@@ -45,6 +46,21 @@ html {
 }
 
 .title h2:after {
+  display: block; /*Элемент становится блочным */
+  content: '';
+  width: 64px;
+  height: 2px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #d98943;
+}
+
+.title h1 {
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.title h1:after {
   display: block; /*Элемент становится блочным */
   content: '';
   width: 64px;
