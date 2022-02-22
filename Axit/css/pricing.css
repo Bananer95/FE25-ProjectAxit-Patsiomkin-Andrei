@@ -22,7 +22,7 @@
   text-transform: capitalize; /*Каждое новое слово с большой буквы */
   background-color: #333333;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.4rem;
   text-align: center; /* Текст по середине*/
   color: white;
   padding: 9px 0 14px 0;
@@ -32,7 +32,7 @@
   background-color: #333333;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 2.5rem;
   text-align: center;
   color: white;
   padding: 26px 0 33px 0;
@@ -41,7 +41,7 @@
 .pricing_list-timeAction {
   background-color: #333333; /*Цвет фона контейнера */
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1rem;
   text-align: center;
   color: #c0bdbd;
   padding: 17px 0 14px 0;
@@ -50,7 +50,7 @@
 .pricing_list-item {
   background-color: #fff;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1rem;
   text-align: center;
   color: #86878b;
   padding: 10px 0 11px 0;
@@ -59,7 +59,7 @@
 
 .pricing_list:hover {
   transform: scale(1.1, 1.1);
-  box-shadow: 10px 5px 5px rgb(172, 172, 172);
+  box-shadow: 0 0 7px 5px rgba(138, 138, 138, 0.8);
 }
 
 .pricing_list-item:last-child {

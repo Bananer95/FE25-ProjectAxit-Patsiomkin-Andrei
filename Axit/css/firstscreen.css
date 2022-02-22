@@ -25,15 +25,16 @@
 .firstscreen_left {
   display: flex;
   flex-direction: column;
+  line-height: 45px;
 }
 
 .logo.firstscreen_logo {
-  font-size: 60px;
+  font-size: 4.3rem;
   margin-bottom: 32px;
 }
 
 .logo.firstscreen_logo::after {
-  font-size: 60px;
+  font-size: 4.3rem;
 }
 
 .title.title-white.firstscreen_title-white {
@@ -59,6 +60,7 @@
 
 .button.firstscreen_button {
   margin-left: 0;
+  padding: 0px 26px;
 }
 .firstscreen_form {
   display: block;
@@ -67,22 +69,22 @@
   background-color: #fff;
   border-radius: 20px;
   overflow: hidden;
-  margin-top: 15px;
+  margin: 0 10px;
 }
 
 .form_content {
   display: block;
-  padding: 0 40px;
+  padding: 20px 60px 50px;
 }
 .form_title {
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 600;
   color: #333333;
   line-height: 27px;
   letter-spacing: -1px;
   text-transform: capitalize;
   text-align: center;
-  margin: 20px 0 40px;
+  margin: 0 0 40px;
 }
 .form_title span {
   text-transform: uppercase;
@@ -90,11 +92,16 @@
 }
 .form_item {
   display: block;
-  margin: 10px;
+  margin-bottom: 20px;
 }
+
+.form_item:last-child {
+  margin-bottom: 0;
+}
+
 .form_item label {
   width: 100%;
-  font-size: 14px;
+  font-size: 1.3rem;
   font-weight: 400;
   color: #bdbdbd;
   margin-bottom: 2px;
@@ -102,12 +109,13 @@
 
 .form_item input {
   width: 100%;
-  font-size: 14px;
+  font-size: 1.3rem;
   font-weight: 400;
   color: #333333;
   border: 0;
   border-bottom: 1px solid #bdbdbd;
   text-transform: none;
+  padding: 2px;
 }
 .form_item input:active,
 :hover,
@@ -117,8 +125,7 @@
 }
 .from_btn {
   width: 100%;
-  margin-top: 50px;
-  font-size: 15px;
+  font-size: 1.1rem;
   font-weight: 600;
   text-transform: capitalize;
   text-align: center;

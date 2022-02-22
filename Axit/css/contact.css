@@ -19,7 +19,7 @@
 
 .contact_form_user_item label {
   width: 100%;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
   color: #bdbdbd;
   margin-bottom: 32px;
@@ -27,13 +27,14 @@
 
 .contact_form_user_item input {
   width: 100%;
-  font-size: 25px;
+  font-size: 1.8rem;
   font-weight: 400;
   color: #333333;
   border: 0;
   border-bottom: 1px solid #bdbdbd;
   text-transform: none;
   margin-bottom: 32px;
+  padding: 2px;
 }
 
 .contact_form_user_item-last {
@@ -47,34 +48,36 @@
 }
 .contact_form_message label {
   width: 100%;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
   color: #bdbdbd;
   margin-bottom: 32px;
 }
 
-.contact_form_message input {
+.contact_form_message textarea {
+  outline: none;
+  border: none;
+  height: 305px;
   width: 100%;
-  font-size: 25px;
+  font-size: 1.8rem;
+  resize: none;
   font-weight: 400;
   color: #333333;
-  border: 0;
   border-bottom: 1px solid #bdbdbd;
   text-transform: none;
   margin-bottom: 32px;
-  padding-bottom: 265px;
 }
 
 .contact_btn {
   display: block;
   margin: auto;
-  width: 166px;
-  font-size: 15px;
+  font-size: 1.1rem;
+  line-height: normal;
   font-weight: 600;
   text-transform: capitalize;
   border: 0;
   color: #fff;
   background-color: #ec7979;
-  padding: 11px;
+  padding: 16px 45px;
   cursor: pointer;
 }

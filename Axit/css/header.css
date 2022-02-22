@@ -1,4 +1,8 @@
 .header {
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  z-index: 6;
   background-color: #000000;
   padding: 25px 0;
 }
@@ -16,7 +20,7 @@
 
 .header-nav-item {
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 1.1rem;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
@@ -43,4 +47,33 @@
 
 .header-nav-item:hover::after {
   opacity: 1;
+}
+.burger {
+  position: relative;
+  display: none;
+  width: 35px;
+  height: 3px;
+  background-color: #ec7979;
+  margin-top: 8px;
+}
+.burger::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 35px;
+  height: 3px;
+  background-color: #ec7979;
+  left: 0;
+  top: 8px;
+}
+
+.burger::before {
+  position: absolute;
+  content: '';
+  display: block;
+  left: 0px;
+  top: -8px;
+  width: 35px;
+  height: 3px;
+  background-color: #ec7979;
 }

@@ -27,7 +27,7 @@
 }
 
 .awesome_card_title {
-  font-size: 20px;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #333333;
   text-align: center;
@@ -36,7 +36,7 @@
 }
 
 .awesome_card_text {
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 19px;
   text-align: center;
@@ -45,5 +45,5 @@
 
 .awesome_card_img i {
   color: #d98943;
-  font-size: 33px;
+  font-size: 2.35rem;
 }

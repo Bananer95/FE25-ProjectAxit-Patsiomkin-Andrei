@@ -14,7 +14,7 @@
 }
 .tabs_content-item_left_btn.active {
   background-color: #ec7979;
-  font-size: 16px;
+  font-size: 1.5rem;
   text-transform: uppercase;
   color: white;
   font-weight: 600;
@@ -26,7 +26,7 @@
 }
 .tabs_content-item_left_btn {
   background-color: #333333;
-  font-size: 16px;
+  font-size: 1.5rem;
   text-transform: uppercase;
   color: white;
   font-weight: 600;
@@ -54,7 +54,7 @@
   margin-right: 80px;
 }
 .tabs_content-item_right_contant_left_title {
-  font-size: 20px;
+  font-size: 1.4rem;
   font-weight: 600;
   color: rgb(31, 31, 31);
   text-transform: uppercase;
@@ -62,7 +62,7 @@
 }
 .tabs_content-item_right_contant_left_text {
   max-width: 550px;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
   color: #86878b;
   text-align: left;
