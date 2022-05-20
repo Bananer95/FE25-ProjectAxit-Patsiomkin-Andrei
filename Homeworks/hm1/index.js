@@ -32,3 +32,18 @@ console.log(result);
 
 let someNum = buka.reduce((acc, res) => acc + res[1].students / buka.length, 0);
 console.log(someNum);
+
+// Task 4
+const arr = [];
+arr[0] = subjects.mathematics;
+arr[1] = subjects.biology;
+arr[2] = subjects.geography;
+arr[3] = subjects.chemistry;
+console.log(arr);
+
+// Task 5
+const someArroy = [...arr].sort((a, b) => {
+  return b.teachers - a.teachers;
+});
+
+console.log(someArroy);
