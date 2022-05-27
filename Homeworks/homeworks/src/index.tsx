@@ -259,34 +259,46 @@ const stringFromName: string = users
 
 // Task  2
 
-const sumCars: any = users
+const sumCars: number = users
   .map((users: IUser): number | undefined => {
     return users.cars?.length;
   })
-  .reduce((acc: number | undefined, leng: number | undefined): number => {
+  .reduce((acc: number, leng: number | undefined): number => {
     if (leng === undefined) {
       leng = 0;
     }
     return ((acc as number) += leng as number);
   }, 0);
 
-// Task 3
+console.log(sumCars);
 
+// Task 3
 const sortArray = (arr: Array<IUser>): IUser[] => {
-  const secondArrayUsers = arr.sort((a: IUser, b: IUser) => {
-    return Number(b['hasEducation']) - Number(a['hasEducation']);
-  });
+  const secondArrayUsers = arr
+    .map((e: IUser): IUser => {
+      return e;
+    })
+    .sort((a: IUser, b: IUser) => {
+      return Number(b['hasEducation']) - Number(a['hasEducation']);
+    });
   return secondArrayUsers;
 };
+
+console.log(sortArray(users));
 
 //  Task 4
 
 const sortArrayByAnimals = (arr: Array<IUser>): IUser[] => {
-  const firstArrayByAnimals = arr.sort((a: IUser, b: IUser) => {
-    return (
-      Number(a.hasOwnProperty('animals')) - Number(b.hasOwnProperty('animals'))
-    );
-  });
+  const firstArrayByAnimals = arr
+    .map((e: IUser): IUser => {
+      return e;
+    })
+    .sort((a: IUser, b: IUser) => {
+      return (
+        Number(a.hasOwnProperty('animals')) -
+        Number(b.hasOwnProperty('animals'))
+      );
+    });
   return firstArrayByAnimals;
 };
 
