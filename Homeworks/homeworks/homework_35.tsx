@@ -46,8 +46,8 @@ const stringFromName: string = users
 // Task  2
 
 const sumCars: number = users
-  .map((users: IUser): number | undefined => {
-    return users.cars?.length;
+  .map((users: IUser): number => {
+    return users?.cars.length;
   })
   .reduce((acc: number, leng: number | undefined): number => {
     if (leng === undefined) {
@@ -69,6 +69,11 @@ const sortArray = (arr: Array<IUser>): IUser[] => {
   return secondArrayUsers;
 };
 
+//
+
+// const getEducationUsers = (arr: Array<IUser>) =>
+// arr.filter((users: IUser) => users.hasEducation);
+
 //  Task 4
 
 const sortArrayByAnimals = (arr: Array<IUser>): IUser[] => {
@@ -84,6 +89,9 @@ const sortArrayByAnimals = (arr: Array<IUser>): IUser[] => {
     });
   return firstArrayByAnimals;
 };
+
+// const getAnimalsOwner = (arr: Array<IUser>) =>
+//   arr.filter((users: IUser) => users?.animals);
 
 // с животным внизу, так как, изначально юзер с котом  идет первым
 
