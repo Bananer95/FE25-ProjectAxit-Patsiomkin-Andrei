@@ -1,0 +1,20 @@
+.user-button {
+  background-color: #53c5dc;
+  width: 200px;
+  height: 75px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-button img {
+  margin-right: 10px;
+}
+
+.user-button div {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d39e3;
+}

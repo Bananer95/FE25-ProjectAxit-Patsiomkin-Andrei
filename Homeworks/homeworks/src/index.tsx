@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
 import { log } from 'console';
 
@@ -534,7 +534,7 @@ const movies: Array<IMovie> = [
 ];
 
 // Собрать в массив все жанры фильмов(без повторения)
-
+//  task 1
 const genreArray = (movies: Array<IMovie>) => {
   const arrGenre = movies.map((movie: IMovie) => {
     return movie['genre'];
@@ -548,7 +548,7 @@ const genreArray = (movies: Array<IMovie>) => {
 };
 
 console.log(genreArray(movies));
-
+//  task 2
 const actorsArray = (movies: Array<IMovie>) => {
   const arrActors = movies.map((movie: IMovie) => {
     return movie['actors'];
@@ -562,6 +562,7 @@ const actorsArray = (movies: Array<IMovie>) => {
 };
 
 console.log(actorsArray(movies));
+// task 3
 
 const sortMovies = (movies: Array<IMovie>) => {
   const moviesArray = movies.map((movie: IMovie) => {
@@ -572,7 +573,7 @@ const sortMovies = (movies: Array<IMovie>) => {
   });
   const sortMovies = moviesArray.sort(
     (a: (string | number)[], b: (string | number)[]) => {
-      return b[1] - a[1];
+      return Number(b[1]) - Number(a[1]);
     }
   );
   return sortMovies;
@@ -580,6 +581,7 @@ const sortMovies = (movies: Array<IMovie>) => {
 
 console.log(sortMovies(movies));
 
+//  task 4
 const newArray = (movies: Array<IMovie>) => {
   const newArray = movies.map((movie) => {
     return {
@@ -593,7 +595,7 @@ const newArray = (movies: Array<IMovie>) => {
 };
 
 console.log(newArray(movies));
-
+//   Task 5
 const movieOnYears = (movies: Array<IMovie>, b: number) => {
   const requiredArray = movies.map((movie: IMovie) => {
     if (b === movie.year) {
@@ -607,3 +609,57 @@ const movieOnYears = (movies: Array<IMovie>, b: number) => {
   return returnArray;
 };
 console.log(movieOnYears(movies, 1977));
+
+// task 6
+const movieOnNames = (movies: Array<IMovie>, b: string) => {
+  const requiredArray = movies.map((movie: IMovie) => {
+    console.log(movie.title.indexOf(b));
+    if (movie.title.indexOf(b) >= 0) {
+      return movie;
+    }
+  });
+  const filterArray = requiredArray.filter((e) => e !== undefined);
+  return filterArray;
+};
+
+console.log(movieOnNames(movies, 'Harry'));
+
+//  task 7
+
+const movieOnNamesAndPlot = (movies: Array<IMovie>, b: string) => {
+  const requiredArray = movies.map((movie: IMovie) => {
+    if (movie.title.indexOf(b) >= 0) {
+      return movie;
+    } else if (movie.plot.indexOf(b) >= 0) {
+      return movie;
+    }
+  });
+
+  const filterArray = requiredArray.filter((e) => e !== undefined);
+  return filterArray;
+};
+
+console.log(movieOnNamesAndPlot(movies, 'battle'));
+// Task
+const arrayWhatWeNeed = (
+  movies: Array<IMovie>,
+  b: string,
+  c: string | number
+) => {
+  const requiredArray = movies.map((movie: IMovie) => {
+    if (movie.hasOwnProperty(b)) {
+      if (movie.title.indexOf(b) >= 0) {
+        return movie;
+      }
+    }
+  });
+  return requiredArray;
+};
+
+//   // const requiredArray = movies.map((movie) => {
+//   //   if (movie.b.indexOf(c)) {
+//   //     return movie;
+//   //   }
+//   });
+
+console.log(arrayWhatWeNeed(movies, 'title', 'Black Widow'));

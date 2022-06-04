@@ -200,3 +200,68 @@ const movieOnYears = (movies: Array<IMovie>, b: number) => {
 
   return returnArray;
 };
+
+// . Создать функцию, которая бы принимала массив фильмов и
+// строку. А результатом этой функции должен быть новый
+// отфильтрованный массив, с фильмами, где строка входит в
+// название фильма.
+
+const movieOnNames = (movies: Array<IMovie>, b: string) => {
+  const requiredArray = movies.map((movie: IMovie) => {
+    console.log(movie.title.indexOf(b));
+    if (movie.title.indexOf(b) >= 0) {
+      return movie;
+    }
+  });
+  const filterArray = requiredArray.filter((e) => e !== undefined);
+  return filterArray;
+};
+
+//  Вопрос про тип в методе map
+// 7. Создать функцию, которая бы принимала массив фильмов и
+// строку. А результатом этой функции должен быть
+// отфильтрованный массив, с фильмами где строка входит в
+// название фильма или в его сюжет.
+
+const movieOnNamesAndPlot = (movies: Array<IMovie>, b: string) => {
+  const requiredArray = movies.map((movie: IMovie) => {
+    if (movie.title.indexOf(b) >= 0) {
+      return movie;
+    } else if (movie.plot.indexOf(b) >= 0) {
+      return movie;
+    }
+  });
+
+  const filterArray = requiredArray.filter((e) => e !== undefined);
+  return filterArray;
+};
+
+// Создать функцию, которая бы принимала 3 параметра:
+// 1)массив фильмов , 2) строка(название поля, например 'title') и
+// строку/число(значение поля "Black Widow"). А результатом
+// этой функции должен быть отфильтрованный массив, где
+// параметры 2 и 3 равны в объекте фильма. Например:
+// передаем (films, 'title', 'Black Widow') и на выходе получаем
+// фильм с id=1 если передаем (films, 'year', 2011) , то получаем
+// фильм с id=2
+
+const arrayWhatWeNeed = (
+  movies: Array<IMovie>,
+  b: string,
+  c: string | number
+): IMovie => {
+  // let keyName = null;
+  const chekKeyName = movies.map((movie: IMovie) => {
+    return Object.keys(movie);
+  });
+
+  console.log(chekKeyName);
+
+  //   // const requiredArray = movies.map((movie) => {
+  //   //   if (movie.b.indexOf(c)) {
+  //   //     return movie;
+  //   //   }
+  //   });
+};
+
+console.log(arrayWhatWeNeed(movies, 'title', 'Black Widow'));
